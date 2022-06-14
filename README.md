@@ -5,18 +5,15 @@ CONSIDERE OS DOIS VETORES A E B E QUE CADA UM CONTENHA CINCO ELEMENTOS A PARTIR 
 
 Início
 
-Enquanto Existem voto? Faça
-
-Apresentar opções de voto 
-	
-Ler voto 
-
-Exibir opção selecionada
-	
-Exibir se não selecionou nenhuma das opções apresentadas
-	
-Exibir quantidades de votos de cada opção apresentada
-	
+C = 1
+Soma = 0
+Enquanto C <=6 Faça
+Ler (Q[C])
+Soma = Soma + Q[C]
+C = C +1
+Fim enquanto
+Media = Soma/6
+Exibir (' A média é:', Media)
  Fim Enquanto    
 
 Fim
