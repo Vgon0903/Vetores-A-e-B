@@ -5,16 +5,20 @@ CONSIDERE OS DOIS VETORES A E B E QUE CADA UM CONTENHA CINCO ELEMENTOS A PARTIR 
 
 Início
 
-C = 1
-Soma = 0
-Enquanto C <=6 Faça
-Ler (Q[C])
-Soma = Soma + Q[C]
-C = C +1
-Fim enquanto
-Media = Soma/6
-Exibir (' A média é:', Media)
- Fim Enquanto    
+Recebe valores dos 2 vetores com 5 modulos cada
+
+Laço de repetição conforme tamanho do vetor para ler cada numero
+
+Exibir numero maior que 4 do vetor A
+
+Exibir numero maior que 4 do vetor B
+
+Exibir numero menores ou iguais a 5 do vetor A
+
+Exibir numero menores ou iguais a 5 do vetor B
+
+Calcula variavel C
+
 
 Fim
 ------------------------------------------------------
